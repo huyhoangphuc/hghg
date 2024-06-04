@@ -1,4 +1,4 @@
-wait(1)
+wait(7)
 
 local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/a120doors/main/jghgifgy"))()
 
