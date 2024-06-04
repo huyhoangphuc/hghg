@@ -1,17 +1,17 @@
-wait(3)
+wait(1)
 
 local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/a120doors/main/jghgifgy"))()
 
 ---====== Create entity ======---
 
 local entity = Spawner.createEntity({
-    CustomName = "A-60 prime",
-    Model = "rbxassetid://12873163640", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    CustomName = "A-60' ",
+    Model = "rbxassetid://11463895093", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
     Speed = 10000,
-    MoveDelay = 2,
+    MoveDelay = 3,
     HeightOffset = 1,
     CanKill = true,
-    KillRange = 1000,
+    KillRange = 10,
     SpawnInFront = false,
     ShatterLights = false,
     FlickerLights = {
@@ -21,7 +21,7 @@ local entity = Spawner.createEntity({
     Cycles = {
         Min = 1,
         Max = 1,
-        Delay = 2
+        Delay = 7
     },
     CamShake = {
         Enabled = true,
