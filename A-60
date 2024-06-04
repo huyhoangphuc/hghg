@@ -5,7 +5,7 @@ local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/huyho
 ---====== Create entity ======---
 
 local entity = Spawner.createEntity({
-    CustomName = "A-60' ",
+    CustomName = "A-60 prime",
     Model = "rbxassetid://12919554162", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
     Speed = 10000,
     MoveDelay = 2,
