@@ -1,0 +1,120 @@
+game.ReplicatedStorage.Sounds.BulbZap.SoundId = "rbxassetid://5837227586"
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hcbh/main/yyuggg"))()
+local Window = Library.CreateLib("Depth hub V1", "BloodTheme")
+local Tab = Window:NewTab("Customs Entity")
+local Section = Tab:NewSection("Entity")
+Section:NewButton("Depth", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Depth"))()
+end)
+
+Section:NewButton("Ripper", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Ripper"))()
+end)
+
+Section:NewButton("Green Ripper", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Green Ripper"))()
+end)
+
+Section:NewButton("Rebound", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Rebound"))()
+end)
+
+Section:NewButton("Nightmare Rebound", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hshshshdhxh/main/README.md"))()
+end)
+
+Section:NewButton("Fostbite hardcore", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/fostbite"))()
+end)
+
+Section:NewButton("Cease", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Cease"))()
+end)
+
+
+Section:NewButton("Dread", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/clock"))()
+end)
+
+Section:NewButton("Terr", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Terr"))()
+end)
+
+Section:NewButton("Wh1t3", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Wh1t3"))()
+end)
+
+Section:NewButton("Smiler", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Smiler"))()
+end)
+
+Section:NewButton("A-60", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hcbh/main/ffgfgfhgfutyy"))()
+end)
+
+Section:NewButton("B-60", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/B-60"))()
+end)
+
+Section:NewButton("blink", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Blink"))()
+end)
+
+Section:NewButton("Tikers", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/Spawn-entity/main/Tikers"))()
+end)
+
+local Tab1 = Window:NewTab("Item")
+local Section1 = Tab1:NewSection("Custom Crucifix")
+local Section2 = Tab1:NewSection("Item")
+
+Section1:NewButton("Figure Crucifix", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/huyhoangphuc/hgh/main/Ghggg'))()
+end)
+
+Section1:NewButton("Fog Crucifix", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/huyhoangphuc/hehhe/main/Hzhzhzhzh'))()
+end)
+
+Section1:NewButton("Halloween Crucifix", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mye123/MyeWareHub/main/Halloween%20Crucifix"))() 
+firesignal(game.ReplicatedStorage.Bricks.Caption.OnClientEvent, "The Haloween Crucifix Has Been Given")
+end)
+
+Section2:NewButton("Flashlight", "Bruh", function()
+        
+local shadow=game:GetObjects("rbxassetid://6219027765")[1]
+shadow.Parent = game.Players.LocalPlayer.Backpack
+local Players = game:GetService("Players")
+local Plr = Players.LocalPlayer
+local Char = Plr.Character or Plr.CharacterAdded:Wait()
+local Hum = Char:WaitForChild("Humanoid")
+local RightArm = Char:WaitForChild("RightUpperArm")
+local LeftArm = Char:WaitForChild("LeftUpperArm")
+local RightC1 = RightArm.RightShoulder.C1
+local LeftC1 = LeftArm.LeftShoulder.C1
+        local function setupCrucifix(tool)
+        RightArm.Name = "R_Arm"
+        LeftArm.Name = "L_Arm"
+        
+        RightArm.RightShoulder.C1 = RightC1 * CFrame.Angles(math.rad(-90), math.rad(-0), 0)
+        LeftArm.LeftShoulder.C1 = LeftC1 * CFrame.new(0, 0, -0) * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0))
+        for _, v in next, Hum:GetPlayingAnimationTracks() do
+            v:Stop()
+        end
+        end
+shadow.Equipped:Connect(function()
+setupCrucifix(shadow)
+game.Players.LocalPlayer:SetAttribute("Hidden", true)
+end)
+ 
+shadow.Unequipped:Connect(function()
+    game.Players.LocalPlayer:SetAttribute("Hidden", false)
+        RightArm.Name = "RightUpperArm"
+        LeftArm.Name = "LeftUpperArm"
+        
+        RightArm.RightShoulder.C1 = RightC1
+        LeftArm.LeftShoulder.C1 = LeftC1
+end)
+end)
