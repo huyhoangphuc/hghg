@@ -45,27 +45,27 @@ end)()
 ----Monster2
 coroutine.wrap(function()
 wait()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hcbh/main/hsgsjshzhshdhdhhddhdejhei%E1%BB%B7736"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hcbh/main/hsgsjshzhshdhdhhddhdejhei%25E1%25BB%25B7736"))()
 end)()
 ----
 
 ----Monster3
 coroutine.wrap(function()
 wait()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hcbh/main/hsgsjshzhshdhdhhddhdejhei%E1%BB%B7736"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hcbh/main/hsgsjshzhshdhdhhddhdejhei%25E1%25BB%25B7736"))()
 end)()
 ----
 
 ----Monster4
 coroutine.wrap(function()
 wait()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hcbh/main/hsgsjshzhshdhdhhddhdejhei%E1%BB%B7736"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hcbh/main/hsgsjshzhshdhdhhddhdejhei%25E1%25BB%25B7736"))()
 end)()
 ----
 
 ----Monster5
 coroutine.wrap(function()
 wait()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hcbh/main/hsgsjshzhshdhdhhddhdejhei%E1%BB%B7736"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hcbh/main/hsgsjshzhshdhdhhddhdejhei%25E1%25BB%25B7736"))()
 end)()
 ----
